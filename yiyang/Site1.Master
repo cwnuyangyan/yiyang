@@ -1,0 +1,175 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="yiyang.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="css/inde.css" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="all"/>
+    
+    <link rel="stylesheet" type="text/css" href="css/commonstyle.css"/>
+    <style type="text/css">
+        .auto-style9 {            
+            width: 100px;
+            height: 40px;
+        }
+
+        .auto-style11 {
+            width: 72px;
+            height: 40px;
+            color: #A80002;
+        }
+
+        .auto-style12 {
+            height: 79px;
+            padding-top: 10px;
+            width: 100%;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            text-align:center;
+        }
+        .auto-style13 {
+            width: 72px;
+            height: 40px;
+        }
+        .auto-style14 {
+            width: 82px;
+            height: 40px;
+        }
+        .auto-style15 {
+            width: 80px;
+            height: 40px;
+        }
+        .auto-style16 {
+            width: 100%;
+            height: 80px;
+            border-bottom:1px solid darkgray;
+        }
+
+        .auto-style17 {
+            height: 284px;
+        }
+        .auto-style18 {
+            left: 0;
+            top: 0;
+            height: 287px;
+        }
+        .auto-style19 {
+            margin-bottom: 2px;
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            text-align: center;
+            left: 0px;
+            top: 0px;
+            height: 271px;
+        }
+        .auto-style20 {
+            position: relative;
+            list-style: none;
+            overflow: hidden;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            left: 0px;
+            top: 0px;
+            height: 268px;
+        }
+
+        .auto-style21 {
+            width: 100%;
+            height: 30px;
+        }
+        .auto-style22 {
+            width: 340px;
+        }
+        .auto-style23 {
+            width: 297px;
+            text-align:left;
+        }
+
+        .auto-style24 {
+            width: 375px;
+            text-align:right;
+        }
+        
+        </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="body" style="height:auto">
+            <div class="auto-style12">
+                    <table class="auto-style16">
+                        <tr style="text-align:center;width:100%">
+                            <td class="auto-style9">
+                                <asp:ImageButton ID="ImageButton1" runat="server" Height="70px" ImageUrl="~/images/yiyang_logo.png" />
+                            </td>
+                            <td class="auto-style11">
+                                <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Black" Height="30px" PostBackUrl="#">首页</asp:LinkButton>
+                            </td>
+                            <td class="auto-style13">
+                                <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Black" Height="30px">视频教程</asp:LinkButton>
+                            </td>
+                            <td class="auto-style13">
+                                <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="Black" Height="30px">谱库</asp:LinkButton>
+                            </td>
+                            <td class="auto-style13">
+                                <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="Black" Height="30px">论坛社区</asp:LinkButton>
+                            </td>
+                            <td class="auto-style9">
+                                <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="Black" Height="30px">个人中心</asp:LinkButton>
+                            </td>
+                            <td class="auto-style14">
+                                <asp:LinkButton ID="LinkButton6" runat="server">💸</asp:LinkButton>
+                                <br />
+                                <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="Black">积分充值</asp:LinkButton>
+                            </td>
+                            <td class="auto-style15">
+                                <asp:LinkButton ID="LinkButton8" runat="server">💎</asp:LinkButton>
+                                <br />
+                                <asp:LinkButton ID="LinkButton9" runat="server" ForeColor="Black">VIP</asp:LinkButton>
+                            </td>
+                            <td class="auto-style15">
+                                <asp:Button ID="Button1" runat="server" BorderColor="#FF6600" BorderStyle="Solid" Font-Size="Medium" Height="35px" Text="登陆" Width="69px" />
+                            </td>
+                             <td class="auto-style15">
+                                 <asp:Button ID="Button2" runat="server" BackColor="#FF6600" BorderColor="#FF6600" BorderStyle="Solid" Font-Size="Medium" Height="35px" Text="注册" Width="69px" ForeColor="White" />
+                            </td>
+                        </tr>
+                        
+                    </table>
+                
+                    <br />
+                
+                    <table style="width:100%; position:center; overflow: hidden;">
+                        <tr style="text-align:center;width:690px;">
+                            <td style="color: #000000; font-size: small;">
+                                <asp:Button ID="Button3" runat="server" BackColor="#CCCCCC" Font-Names="微软雅黑 Light" Font-Size="Medium" Height="40px" Text="≡分类" Width="78px" BorderColor="#CCCCCC" BorderStyle="Solid" />
+                                <asp:TextBox ID="TextBox1" runat="server" BorderColor="#CCCCCC" BorderStyle="Solid" Height="35px" Width="485px"></asp:TextBox>
+                                <asp:Button ID="Button4" runat="server" BackColor="#FF6600" Font-Size="Larger" ForeColor="White" Height="40px" Text="搜索" Width="100px" BorderStyle="Solid" />
+                                <br />
+                                热门搜索：<asp:LinkButton ID="LinkButton10" runat="server" ForeColor="#999999" Font-Size="Small">弗里德里克▪肖邦</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton11" runat="server" ForeColor="#999999">弗朗茨▪李斯特</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton12" runat="server" ForeColor="#999999">约翰▪塞巴斯蒂安▪巴赫</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton13" runat="server" ForeColor="#999999">路德维希▪凡▪贝多芬</asp:LinkButton>
+                            </td>
+                        </tr>
+                    </table>
+
+                
+                    <br />
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+                </div>
+            </div>
+    </form>
+</body>
+</html>
