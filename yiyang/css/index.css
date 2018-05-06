@@ -2,3 +2,96 @@
     height:1024px;
     width:100%;
 }
+.head_table_tr_td_image {
+    width: 100px;
+    height: 40px;
+}
+
+.head_table_tr_td_shouye {
+    width: 72px;
+    height: 40px;
+    color: #A80002;
+}
+
+.head_div {
+    height: 79px;
+    padding-top: 10px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+.head_table_tr_td_shipinpukuluntan {
+    width: 72px;
+    height: 40px;
+}
+
+.head_table_tr_td_jifen {
+    width: 82px;
+    height: 40px;
+}
+
+.head_table_tr_td_vipdengluzhuce {
+    width: 80px;
+    height: 40px;
+}
+
+.head_table {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid darkgray;
+}
+
+.auto-style17 {
+    height: 284px;
+}
+
+.lunbo_div_ul_li {
+    left: 0;
+    top: 0;
+    height: 287px;
+}
+
+.lunbo_div {
+    margin-bottom: 2px;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    height: 271px;
+}
+
+.lunbo_div_ul {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    left: 0px;
+    top: 0px;
+    height: 268px;
+}
+
+.jingxuanzuoqujia_table {
+    width: 100%;
+    height: 30px;
+}
+
+.jingxuanzuoqujia_table_td_image {
+    width: 340px;
+}
+
+.jingxuanzuoqujia_table_td_label {
+    width: 297px;
+    text-align: left;
+}
+
+.jingxuangangqin_table_td_image {
+    width: 375px;
+    text-align: right;
+}

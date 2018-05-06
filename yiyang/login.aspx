@@ -21,7 +21,7 @@
         </tr>
         <tr>
             <td style="height:40px;">
-                <asp:Button ID="Button5" runat="server" BackColor="#FF6600" ForeColor="White" Height="30px" Text="登陆" Width="60px" PostBackUrl="~/index.aspx" />
+                <asp:Button ID="Button5" runat="server" BackColor="#FF6600" ForeColor="White" Height="30px" Text="登陆" Width="60px" PostBackUrl="~/index.aspx" OnClick="Button5_Click" />
 &nbsp;&nbsp;&nbsp;
                 <asp:Button ID="Button6" runat="server" BackColor="#FF6600" ForeColor="White" Height="30px" Text="注册" Width="60px" PostBackUrl="~/register.aspx" />
             </td>
