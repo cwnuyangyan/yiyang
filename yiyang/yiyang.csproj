@@ -66,11 +66,32 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\skitter.styles.css" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\beian.png" />
+    <Content Include="images\btn_bg.jpg" />
+    <Content Include="images\case_bg.jpg" />
+    <Content Include="images\gongxin.png" />
+    <Content Include="images\icon01.png" />
+    <Content Include="images\icon02.png" />
+    <Content Include="images\icon03.png" />
+    <Content Include="images\icon04.png" />
+    <Content Include="images\jt.png" />
+    <Content Include="images\login_pic01.jpg" />
+    <Content Include="images\logo_touming.gif" />
+    <Content Include="images\registe_pic.png" />
+    <Content Include="images\top_line.png" />
+    <Content Include="images\yzm.png" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.skitter.min.js" />
+    <Content Include="js\public.js" />
     <Content Include="Vincent.AutoAuthCode.dll" />
     <Content Include="login.aspx" />
     <Content Include="register.aspx" />
     <Content Include="App_Themes\Skin1\Skin1.skin" />
     <Content Include="WebForm3.aspx" />
+    <Content Include="Userlogin.aspx" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -241,6 +262,13 @@
     </Compile>
     <Compile Include="WebForm3.aspx.designer.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Userlogin.aspx.cs">
+      <DependentUpon>Userlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Userlogin.aspx.designer.cs">
+      <DependentUpon>Userlogin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

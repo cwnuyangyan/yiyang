@@ -8,6 +8,7 @@
     <title></title>
     <link rel="stylesheet" href="css/inde.css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" media="all"/>
+    <link href="css/commonstyle.css" rel="stylesheet" />
     
     <link rel="stylesheet" type="text/css" href="css/commonstyle.css"/>
     <style type="text/css">
@@ -169,7 +170,41 @@
                  <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
             </asp:ContentPlaceHolder>
                 </div>
+
             </div>
+
     </form>
+                        <div class="footer" style="margin-top:600px;">
+                        <div class="footerinner">
+                            <ul class="share">
+                                <li>
+                                    <img class="weibo_icon" src="images/share1.png" alt="" />
+                                </li>
+                                <li>
+                                    <img class="qq_icon" src="images/share2.png" alt="" />
+                                </li>
+                                <li>
+                                    <img class="twitter_icon" src="images/share3.png" alt="" />
+                                </li>
+                                <li>
+                                    <img class="wechat_icon" src="images/share4.png" alt="" />
+                                </li>
+                            </ul>
+                           
+                            <div class="footerinfo">
+                                <div class="footerinfoTop">
+                                    <p>联系我们&nbsp;&nbsp;18398956610&nbsp;;&nbsp;</p>
+                                    <p>Email：&nbsp;1507618995@qq.com</p>
+                                    <p>地址:西华师范大学音乐学院</p>
+                                </div>
+                                <div class="footerinfoBottom">
+                                    <p>“艺阳”互联网+全民共享乐谱数字图书馆&线上艺术教育</p>
+
+                                    <p>程序媛小姐姐努力码代码中，有问题请联系我们</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 </body>
 </html>

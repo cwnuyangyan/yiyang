@@ -10,6 +10,6 @@
 namespace yiyang {
     
     
-    public partial class WebForm2 {
+    public partial class WebForm4 {
     }
 }
