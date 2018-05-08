@@ -5,10 +5,10 @@
 <!-- js -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/public.js"></script>
-<script type="text/javascript" language="javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" language="javascript" src="js/jquery.skitter.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
 <!-- Init Skitter -->
-<script type="text/javascript" language="javascript">
+<script type="text/javascript">
 	$(document).ready(function() {
 		$('.box_skitter_large').skitter({
 			theme: 'clean',
@@ -39,8 +39,8 @@
 				<h1>登录/LOGIN</h1>
 				<div class="text_box">
 					<div>
-						<div><i><img src="images/icon01.png"></i><input type="text" placeholder="请输入WangID号码"></div>
-						<div><i><img src="images/icon02.png"></i><input type="password" placeholder="请输入密码"></div>
+						<div><i><img src="images/icon01.png"></i><input id="id" type="text" placeholder="请输入WangID号码"></div>
+						<div><i><img src="images/icon02.png"></i><input id="psw" type="password" placeholder="请输入密码"></div>
 						<div class="yzm">
 							<i><img src="images/icon03.png"></i><input type="text" placeholder="请输入验证码">
 							<label><img src="images/yzm.png"></label>
@@ -49,6 +49,7 @@
 							<a href="password.html">忘记密码？</a>
 							<a href="register.html">没有帐号？免费注册！</a>
 						</h3>
+                        
 						<button>登 录</button>
 					</div>
 				</div>
@@ -56,5 +57,5 @@
 		</div>
 	</div>
 	<!-- footer -->
-	
+
 </asp:Content>
