@@ -4,15 +4,15 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <link rel="stylesheet" href="css/inde.css" />
-    <link rel="stylesheet" href="css/index.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="all" />
     <link href="css/commonstyle.css" rel="stylesheet" />
-    
-    <link rel="stylesheet" type="text/css" href="css/commonstyle.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/commonstyle.css" />
     <style type="text/css">
-        .auto-style9 {            
+        .auto-style9 {
             width: 100px;
             height: 40px;
         }
@@ -30,34 +30,40 @@
             position: relative;
             left: 0px;
             top: 0px;
-            text-align:center;
+            text-align: center;
         }
+
         .auto-style13 {
             width: 72px;
             height: 40px;
         }
+
         .auto-style14 {
             width: 82px;
             height: 40px;
         }
+
         .auto-style15 {
             width: 80px;
             height: 40px;
         }
+
         .auto-style16 {
             width: 100%;
             height: 80px;
-            border-bottom:1px solid darkgray;
+            border-bottom: 1px solid darkgray;
         }
 
         .auto-style17 {
             height: 284px;
         }
+
         .auto-style18 {
             left: 0;
             top: 0;
             height: 287px;
         }
+
         .auto-style19 {
             margin-bottom: 2px;
             position: relative;
@@ -68,6 +74,7 @@
             top: 0px;
             height: 271px;
         }
+
         .auto-style20 {
             position: relative;
             list-style: none;
@@ -84,127 +91,129 @@
             width: 100%;
             height: 30px;
         }
+
         .auto-style22 {
             width: 340px;
         }
+
         .auto-style23 {
             width: 297px;
-            text-align:left;
+            text-align: left;
         }
 
         .auto-style24 {
             width: 375px;
-            text-align:right;
+            text-align: right;
         }
-        
-        </style>
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="body" style="height:auto">
+        <div class="body" style="height: auto">
             <div class="auto-style12">
-                    <table class="auto-style16">
-                        <tr style="text-align:center;width:100%">
-                            <td class="auto-style9">
-                                <asp:ImageButton ID="ImageButton1" runat="server" Height="70px" ImageUrl="~/images/yiyang_logo.png" />
-                            </td>
-                            <td class="auto-style11">
-                                <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Black" Height="30px" PostBackUrl="#">首页</asp:LinkButton>
-                            </td>
-                            <td class="auto-style13">
-                                <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Black" Height="30px">视频教程</asp:LinkButton>
-                            </td>
-                            <td class="auto-style13">
-                                <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="Black" Height="30px">谱库</asp:LinkButton>
-                            </td>
-                            <td class="auto-style13">
-                                <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="Black" Height="30px">论坛社区</asp:LinkButton>
-                            </td>
-                            <td class="auto-style9">
-                                <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="Black" Height="30px">个人中心</asp:LinkButton>
-                            </td>
-                            <td class="auto-style14">
-                                <asp:LinkButton ID="LinkButton6" runat="server">💸</asp:LinkButton>
-                                <br />
-                                <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="Black">积分充值</asp:LinkButton>
-                            </td>
-                            <td class="auto-style15">
-                                <asp:LinkButton ID="LinkButton8" runat="server">💎</asp:LinkButton>
-                                <br />
-                                <asp:LinkButton ID="LinkButton9" runat="server" ForeColor="Black">VIP</asp:LinkButton>
-                            </td>
-                            <td class="auto-style15">
-                                <asp:Button ID="Button1" runat="server" BorderColor="#FF6600" BorderStyle="Solid" Font-Size="Medium" Height="35px" Text="登陆" Width="69px" />
-                            </td>
-                             <td class="auto-style15">
-                                 <asp:Button ID="Button2" runat="server" BackColor="#FF6600" BorderColor="#FF6600" BorderStyle="Solid" Font-Size="Medium" Height="35px" Text="注册" Width="69px" ForeColor="White" />
-                            </td>
-                        </tr>
-                        
-                    </table>
-                
-                    <br />
-                
-                    <table style="width:100%; position:center; overflow: hidden;">
-                        <tr style="text-align:center;width:690px;">
-                            <td style="color: #000000; font-size: small;">
-                                <asp:Button ID="Button3" runat="server" BackColor="#CCCCCC" Font-Names="微软雅黑 Light" Font-Size="Medium" Height="40px" Text="≡分类" Width="78px" BorderColor="#CCCCCC" BorderStyle="Solid" />
-                                <asp:TextBox ID="TextBox1" runat="server" BorderColor="#CCCCCC" BorderStyle="Solid" Height="35px" Width="485px"></asp:TextBox>
-                                <asp:Button ID="Button4" runat="server" BackColor="#FF6600" Font-Size="Larger" ForeColor="White" Height="40px" Text="搜索" Width="100px" BorderStyle="Solid" />
-                                <br />
-                                热门搜索：<asp:LinkButton ID="LinkButton10" runat="server" ForeColor="#999999" Font-Size="Small">弗里德里克▪肖邦</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:LinkButton ID="LinkButton11" runat="server" ForeColor="#999999">弗朗茨▪李斯特</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:LinkButton ID="LinkButton12" runat="server" ForeColor="#999999">约翰▪塞巴斯蒂安▪巴赫</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <asp:LinkButton ID="LinkButton13" runat="server" ForeColor="#999999">路德维希▪凡▪贝多芬</asp:LinkButton>
-                            </td>
-                        </tr>
-                    </table>
+                <table class="auto-style16">
+                    <tr style="text-align: center; width: 100%">
+                        <td class="auto-style9">
+                            <asp:ImageButton ID="ImageButton1" runat="server" Height="70px" ImageUrl="~/images/yiyang_logo.png" />
+                        </td>
+                        <td class="auto-style11">
+                            <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Black" Height="30px" PostBackUrl="#">首页</asp:LinkButton>
+                        </td>
+                        <td class="auto-style13">
+                            <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Black" Height="30px">视频教程</asp:LinkButton>
+                        </td>
+                        <td class="auto-style13">
+                            <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="Black" Height="30px">谱库</asp:LinkButton>
+                        </td>
+                        <td class="auto-style13">
+                            <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="Black" Height="30px">论坛社区</asp:LinkButton>
+                        </td>
+                        <td class="auto-style9">
+                            <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="Black" Height="30px">个人中心</asp:LinkButton>
+                        </td>
+                        <td class="auto-style14">
+                            <asp:LinkButton ID="LinkButton6" runat="server">💸</asp:LinkButton>
+                            <br />
+                            <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="Black">积分充值</asp:LinkButton>
+                        </td>
+                        <td class="auto-style15">
+                            <asp:LinkButton ID="LinkButton8" runat="server">💎</asp:LinkButton>
+                            <br />
+                            <asp:LinkButton ID="LinkButton9" runat="server" ForeColor="Black">VIP</asp:LinkButton>
+                        </td>
+                        <td class="auto-style15">
+                            <asp:Button ID="Button1" runat="server" BorderColor="#FF6600" BorderStyle="Solid" Font-Size="Medium" Height="35px" Text="登陆" Width="69px" />
+                        </td>
+                        <td class="auto-style15">
+                            <asp:Button ID="Button2" runat="server" BackColor="#FF6600" BorderColor="#FF6600" BorderStyle="Solid" Font-Size="Medium" Height="35px" Text="注册" Width="69px" ForeColor="White" />
+                        </td>
+                    </tr>
 
-                
-                    <br />
-                 <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-            </asp:ContentPlaceHolder>
-                </div>
+                </table>
+
+                <br />
+
+                <table style="width: 100%; position: center; overflow: hidden;">
+                    <tr style="text-align: center; width: 690px;">
+                        <td style="color: #000000; font-size: small;">
+                            <asp:Button ID="Button3" runat="server" BackColor="#CCCCCC" Font-Names="微软雅黑 Light" Font-Size="Medium" Height="40px" Text="≡分类" Width="78px" BorderColor="#CCCCCC" BorderStyle="Solid" />
+                            <asp:TextBox ID="TextBox1" runat="server" BorderColor="#CCCCCC" BorderStyle="Solid" Height="35px" Width="485px"></asp:TextBox>
+                            <asp:Button ID="Button4" runat="server" BackColor="#FF6600" Font-Size="Larger" ForeColor="White" Height="40px" Text="搜索" Width="100px" BorderStyle="Solid" />
+                            <br />
+                            热门搜索：<asp:LinkButton ID="LinkButton10" runat="server" ForeColor="#999999" Font-Size="Small">弗里德里克▪肖邦</asp:LinkButton>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton11" runat="server" ForeColor="#999999">弗朗茨▪李斯特</asp:LinkButton>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton12" runat="server" ForeColor="#999999">约翰▪塞巴斯蒂安▪巴赫</asp:LinkButton>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:LinkButton ID="LinkButton13" runat="server" ForeColor="#999999">路德维希▪凡▪贝多芬</asp:LinkButton>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <br />
 
             </div>
 
-    </form>
-                        <div class="footer" style="margin-top:600px;">
-                        <div class="footerinner">
-                            <ul class="share">
-                                <li>
-                                    <img class="weibo_icon" src="images/share1.png" alt="" />
-                                </li>
-                                <li>
-                                    <img class="qq_icon" src="images/share2.png" alt="" />
-                                </li>
-                                <li>
-                                    <img class="twitter_icon" src="images/share3.png" alt="" />
-                                </li>
-                                <li>
-                                    <img class="wechat_icon" src="images/share4.png" alt="" />
-                                </li>
-                            </ul>
-                           
-                            <div class="footerinfo">
-                                <div class="footerinfoTop">
-                                    <p>联系我们&nbsp;&nbsp;18398956610&nbsp;;&nbsp;</p>
-                                    <p>Email：&nbsp;1507618995@qq.com</p>
-                                    <p>地址:西华师范大学音乐学院</p>
-                                </div>
-                                <div class="footerinfoBottom">
-                                    <p>“艺阳”互联网+全民共享乐谱数字图书馆&线上艺术教育</p>
+        </div>
 
-                                    <p>程序媛小姐姐努力码代码中，有问题请联系我们</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    </form>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    <div class="footer" style="margin-top: 1000px;">
+        <div class="footerinner">
+            <ul class="share">
+                <li>
+                    <img class="weibo_icon" src="images/share1.png" alt="" />
+                </li>
+                <li>
+                    <img class="qq_icon" src="images/share2.png" alt="" />
+                </li>
+                <li>
+                    <img class="twitter_icon" src="images/share3.png" alt="" />
+                </li>
+                <li>
+                    <img class="wechat_icon" src="images/share4.png" alt="" />
+                </li>
+            </ul>
+
+            <div class="footerinfo">
+                <div class="footerinfoTop">
+                    <p>联系我们&nbsp;&nbsp;18398956610&nbsp;;&nbsp;</p>
+                    <p>Email：&nbsp;1507618995@qq.com</p>
+                    <p>地址:西华师范大学音乐学院</p>
+                </div>
+                <div class="footerinfoBottom">
+                    <p>“艺阳”互联网+全民共享乐谱数字图书馆&线上艺术教育</p>
+
+                    <p>程序媛小姐姐努力码代码中，有问题请联系我们</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

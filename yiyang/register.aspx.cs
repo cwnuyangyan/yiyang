@@ -14,11 +14,6 @@ namespace yiyang
             
         }
 
-        protected void Button5_Click(object sender, EventArgs e)
-        {
-            String ID = TextBox2.Text.ToString();
-            String Password = TextBox4.Text.ToString();
-            Response.Redirect("login.aspx?id=" + ID + "&&password=" + Password);
-        }
+    
     }
 }
