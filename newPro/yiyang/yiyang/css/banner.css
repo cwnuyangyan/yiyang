@@ -5,6 +5,7 @@
 .banner{
 	position: relative;
 	overflow: hidden;
+    top:-80px;
 }
 .banner-view{
 	position: relative;

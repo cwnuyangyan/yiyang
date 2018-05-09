@@ -9,7 +9,7 @@
     <link href="css/daohang.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/banner.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
-
+    <link rel="stylesheet" type="text/css" href="css/sousuo.css"/>
 
 </head>
 <body style="background-image: url(/images/heibaijita.jpg); height:1350px">
@@ -21,20 +21,20 @@
             <div>
                 <table>
                     <tr>
-                        <td>首页</td>
-                        <td>钢琴谱库</td>
-                        <td>声乐谱库</td>
-                        <td>视频教程</td>
-                        <td>论坛交流</td>
-                        <td>个人中心</td>
+                        <td><a href="index.aspx">首页</a></td>
+                        <td><a href="#">钢琴谱库</a></td>
+                        <td><a href="#">声乐曲谱</a></td>
+                        <td><a href="#">视频教程</a></td>
+                        <td><a href="#">论坛交流</a></td>
+                        <td><a href="#">个人中心</a></td>
                     </tr>
                 </table>
             </div>
         </div>
         <div class="sousuo">
-            <asp:Button ID="fenlei" runat="server" Text="分类" Height="50px" Width="100px" BackColor="dimgray" BorderStyle="Solid" CssClass="sousuokuang" BorderColor="dimgray" Font-Size="Larger" ForeColor="White" />
-            <asp:TextBox ID="TextBox1" runat="server" Height="48px" Width="400px" BorderStyle="Dashed" CssClass="sousuokuang" Font-Size="Medium" ForeColor="Black"></asp:TextBox>
-            <asp:Button ID="select" runat="server" Height="50px" Text="搜索" Width="100px" BorderStyle="Solid" BorderColor="Maroon" BackColor="Maroon" CssClass="sousuokuang" Font-Size="Larger" ForeColor="White" />
+            <asp:Button ID="fenlei" runat="server" Text="分类" Height="45px" Width="100px" BackColor="dimgray" BorderStyle="Solid" CssClass="sousuokuang" BorderColor="dimgray" Font-Size="Larger" ForeColor="White" />
+            <asp:TextBox ID="TextBox1" runat="server" Height="43px" Width="600px" BorderStyle="Dashed" CssClass="sousuokuang" Font-Size="Medium" ForeColor="Black"></asp:TextBox>
+            <asp:Button ID="select" runat="server" Height="45px" Text="搜索" Width="100px" BorderStyle="Solid" BorderColor="Maroon" BackColor="Maroon" CssClass="sousuokuang" Font-Size="Larger" ForeColor="White" />
         </div>
 
         <div class="'lunbo">
@@ -72,7 +72,7 @@
                     container: "#banner1",//选择容器 必选
                     imgs: ['images/1.jpg', 'images/2.jpg', 'images/a3.png', 'images/a4.png', 'images/a5.png'],//图片集合 
                     size: {
-                    width: 1350,
+                    width: 1000,
                     height: 380
                     }//容器的大小 可选
                 });
