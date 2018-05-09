@@ -1,0 +1,40 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    letter-spacing: 1px;
+    text-align:center;
+    background-color:black;
+    background-repeat:no-repeat;
+}
+.logo{
+    margin-left:10%;
+    float:left;
+}
+.header{
+    background-color:dimgray;
+    opacity:0.7;
+    margin-bottom:30px;
+    margin-top:50px;
+    text-align:center;
+}
+
+    .header table {
+        width: 70%;
+        height: 40px;
+        text-align:center;
+        margin-left:15%;
+    }
+        .header table tr td {
+            color: #fff;
+            font-size: 16px;
+        }
+
+td:hover {
+    background-color:#ff6a00;
+    opacity:1;
+} 
